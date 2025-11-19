@@ -76,6 +76,57 @@ friends = ["Kevin", 2, False, "Karen", "Jim"]
 
 # friends2 = friends.copy()
 # print(friends2)
-print(friends)
+
+# tuples
+# tuple is immutable, which means it can't be changed and modified.
+# And it's only one specified type, while list can have any types of elements.
+# coordinates = (4, 5)
+# coordinates [1] = 10
+# print (coordinates[0])
+
+# functions
+# it's a collection of code which executes a specific task.
+# def say_hi(name, age ):
+#     print("Hello " + name + " you are " + str(age))
+
+# print("Top")
+# sayhi()
+# print("Bottom")
+
+# say_hi("Jack",35)
+# say_hi("Kevin",49)
+
+# Return Statement
+# def cube(num):
+#     return num*num*num
+#
+# result = cube(4)
+# print(result)
+
+# If statements
+# is_male = True
+# is_tall = False
+#
+# if is_male or is_tall:
+#     print("You are a male or tall or both")
+# elif is_male and not (is_tall):
+#     print("You are a short male")
+# elif not(is_male) and (is_tall):
+#     print("You are not a male but are tall")
+# else:
+#     print("You are not a male and not tall")
+#
+
+# If statements & comparison operator
+# def max_num(num1, num2, num3):
+#     if num1 >= num2 and num1 >= num3:
+#         return num1
+#     elif num2 >= num1 and num2 >= num3:
+#         return num2
+#     else:
+#         return num3
+#
+# print(max_num(300,4,5))
+
 
 
