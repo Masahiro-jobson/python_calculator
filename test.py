@@ -128,5 +128,22 @@ friends = ["Kevin", 2, False, "Karen", "Jim"]
 #
 # print(max_num(300,4,5))
 
+# Dictionary
+monthConversions = {
+    "Jan": "January",
+    "Feb": "February",
+    "Mar": "March",
+    "Apr": "April",
+    "May": "May",
+    "Jun": "June",
+    "Jul": "July",
+    "Aug": "August",
+    "Sep": "September",
+    "Oct": "October",
+    "Nov": "November",
+    "Dec": "December",
+}
+
+print(monthConversions["Nov"])
 
 
