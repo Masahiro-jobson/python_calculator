@@ -1,1 +1,1 @@
-<img src = https://upload.wikimedia.org/wikipedia/commons/3/34/Blue_Python_3.14.0_Shield_Badge.svg>
+<img src = https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54>
