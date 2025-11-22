@@ -36,7 +36,7 @@
 <br /> 
 <!-- プロジェクト名を記載 -->
 
-## Building a Better Calculator
+## Building a basic Calculator
 
 <p><a href="https://github.com/Masahiro-jobson/AI-email-writer-backend.git">This</a> is the backend repository of AI-email-writer</p>
 
