@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f79607e-8de9-401f-b46f-0b901774cc71" name="Changes" comment="Learn try and except, and reading files from other documents">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userful_tools.py" afterDir="false" />
+    <list default="true" id="5f79607e-8de9-401f-b46f-0b901774cc71" name="Changes" comment="Learn read, write, and modules">
+      <change afterPath="$PROJECT_DIR$/Chef.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChineseChef.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Question.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app4.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,9 +54,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Chef.executor": "Run",
+    "Python.ChineseChef.executor": "Run",
     "Python.app.executor": "Run",
+    "Python.app2.executor": "Run",
+    "Python.app3.executor": "Run",
+    "Python.app4.executor": "Run",
     "Python.calculator.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.userful_tools.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -77,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1763515911561</updated>
-      <workItem from="1763515912589" duration="24095000" />
+      <workItem from="1763515912589" duration="31369000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -135,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763696210886</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Learn read, write, and modules">
+      <option name="closed" value="true" />
+      <created>1763773651534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763773651534</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Learn read, write, and modules">
+      <option name="closed" value="true" />
+      <created>1763773669639</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1763773669639</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +175,8 @@
     <MESSAGE value="Learned how to use Dictionary and  a combined method of while and if with Guess games" />
     <MESSAGE value="For loop, Exponent function, and 2D list and nested loop" />
     <MESSAGE value="Learn try and except, and reading files from other documents" />
-    <option name="LAST_COMMIT_MESSAGE" value="Learn try and except, and reading files from other documents" />
+    <MESSAGE value="Learn read, write, and modules" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learn read, write, and modules" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -161,8 +190,14 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Tutorial$app.coverage" NAME="app Coverage Results" MODIFIED="1763773345995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tutorial$app.coverage" NAME="app Coverage Results" MODIFIED="1763773551648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tutorial$app2.coverage" NAME="app2 Coverage Results" MODIFIED="1763781932261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tutorial$userful_tools.coverage" NAME="userful_tools Coverage Results" MODIFIED="1763773544796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tutorial$Chef.coverage" NAME="Chef Coverage Results" MODIFIED="1763782391693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tutorial$app3.coverage" NAME="app3 Coverage Results" MODIFIED="1763781311361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tutorial$test.coverage" NAME="test Coverage Results" MODIFIED="1763772305612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tutorial$ChineseChef.coverage" NAME="ChineseChef Coverage Results" MODIFIED="1763782885295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tutorial$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1763529259229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tutorial$app4.coverage" NAME="app4 Coverage Results" MODIFIED="1763782944191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

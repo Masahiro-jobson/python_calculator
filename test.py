@@ -254,10 +254,20 @@ friends = ["Kevin", 2, False, "Karen", "Jim"]
 #     test_file.close()
 
 # Write files
-employee_file = open ("index.html", "w")
-
-employee_file.write("<p>This is HTML</p>")
-employee_file.close()
+# employee_file = open ("index.html", "w")
+#
+# employee_file.write("<p>This is HTML</p>")
+# employee_file.close()
 
 # Modules and Piles
+# Pip is package manager
 
+# Classes and Objects
+
+# Building MCQ quiz
+
+# Object functions
+
+# MCQ quiz with Class and object difinition
+
+# Inheritance
